@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='d-flex flex-column vh-100'>
       <header>
-        <Navbar bg="dark" variant='=dark' expand="lg">
+        <Navbar bg="dark" variant='dark' expand="lg">
           <Container>
             <Navbar.Brand>Apnabazar</Navbar.Brand>
           </Container>
@@ -32,8 +32,7 @@ function App() {
 
       </main>
       <footer>
-        <div className="text-center">All rights reserved</div>
-
+        <div className="text-center">All rights reserved</div> 
         </footer>
     </div>
   )
