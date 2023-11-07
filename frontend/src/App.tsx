@@ -1,7 +1,6 @@
-import { useContext, useEffect } from 'react'
+import { useContext } from 'react'
 import {
   Badge,
-  Button,
   Container,
   Nav,
   Navbar,
@@ -12,7 +11,6 @@ import { LinkContainer } from 'react-router-bootstrap'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import { Store } from './Store'
-
 
 function App() {
   const {
