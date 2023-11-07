@@ -8,6 +8,7 @@ import { useSigninMutation } from '../hooks/userHooks'
 import { Store } from '../Store'
 import { ApiError } from '../types/ApiError'
 import { getError } from '../utils'
+import Footer from '../components/Footer'
 
 export default function SigninPage() {
   const navigate = useNavigate()
@@ -79,6 +80,10 @@ export default function SigninPage() {
           <Link to={`/signup?redirect=${redirect}`}>Create your account</Link>
         </div>
       </Form>
+      <div>
+      <Footer/>
+    </div>
     </Container>
+    
   )
 }

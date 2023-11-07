@@ -25,7 +25,7 @@ function ProductItem({ product }: { product: Product }) {
       type: 'CART_ADD_ITEM',
       payload: { ...item, quantity },
     })
-    toast.success('Product added to the cart')
+    toast.success('Added to the cart')
   }
   return (
     <Card>

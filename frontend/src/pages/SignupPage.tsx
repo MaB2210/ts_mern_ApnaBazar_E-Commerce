@@ -7,6 +7,7 @@ import { useSignupMutation } from '../hooks/userHooks'
 import { Store } from '../Store'
 import { ApiError } from '../types/ApiError'
 import { getError } from '../utils'
+import Footer from '../components/Footer'
 
 export default function SignupPage() {
   const navigate = useNavigate()
@@ -98,6 +99,9 @@ export default function SignupPage() {
           <Link to={`/signin?redirect=${redirect}`}>Sign In</Link>
         </div>
       </Form>
+      <div>
+      <Footer/>
+    </div>
     </Container>
   )
 }

@@ -9,6 +9,7 @@ import { useGetProductDetailsBySlugQuery } from '../hooks/productHooks'
 import { Store } from '../Store'
 import { convertProductToCartItem } from '../utils'
 import { useContext } from 'react'
+import Footer from '../components/Footer'
 
 
 export default function ProductPage() {
@@ -110,6 +111,10 @@ export default function ProductPage() {
           </Card>
         </Col>
       </Row>
+      <div>
+      <Footer/>
     </div>
+    </div>
+    
   )
 }

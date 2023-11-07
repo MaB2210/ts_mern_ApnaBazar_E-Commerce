@@ -16,17 +16,9 @@ import { Store } from './Store'
 
 function App() {
   const {
-    state: { mode, cart, userInfo },
+    state: { cart, userInfo },
     dispatch,
   } = useContext(Store)
-
-  useEffect(() => {
-    document.body.setAttribute('data-bs-theme', mode)
-  }, [mode])
-
-  const switchModeHandler = () => {
-    dispatch({ type: 'SWITCH_MODE' })
-  }
   const signoutHandler = () => {
     dispatch({ type: 'USER_SIGNOUT' })
     localStorage.removeItem('userInfo')
@@ -46,9 +38,6 @@ function App() {
             </LinkContainer>
           </Container>
           <Nav>
-          <Button variant={mode} onClick={switchModeHandler}>
-              <i className={mode === 'light' ? 'fa fa-sun' : 'fa fa-moon'}></i>
-            </Button>
             <Link to="/cart" className="nav-link">
               Cart
             {cart.cartItems.length > 0 && (

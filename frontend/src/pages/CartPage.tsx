@@ -6,6 +6,7 @@ import { toast } from 'react-toastify'
 import MessageBox from '../components/MessageBox'
 import { Store } from '../Store'
 import { CartItem } from '../types/Cart'
+import Footer from '../components/Footer'
 
 export default function CartPage() {
   const navigate = useNavigate()
@@ -124,6 +125,9 @@ export default function CartPage() {
           </Card>
         </Col>
       </Row>
+      <div>
+      <Footer/>
+    </div>
     </div>
   )
 }

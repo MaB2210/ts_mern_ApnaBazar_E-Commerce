@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet-async'
 import { useGetProductsQuery } from '../hooks/productHooks'
 import { ApiError } from '../types/ApiError'
 import { getError } from '../utils'
+import Footer from '../components/Footer'
 
 export default function HomePage() {
   const { data: products, isLoading, error } = useGetProductsQuery()
@@ -23,6 +24,9 @@ export default function HomePage() {
                 <ProductItem product={product} />
             </Col>
           ))}
+          <div>
+      <Footer/>
+    </div>
         </Row>
   )
 }
