@@ -12,7 +12,7 @@ export default function HomePage() {
   return isLoading ? (
     <LoadingBox />
   ) : error ? (
-    <MessageBox variant="danger">{getError(error as ApiError)}</MessageBox>
+    <MessageBox variant="danger">#</MessageBox>
   ) : (
     <Row>
       <Helmet>
