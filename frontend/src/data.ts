@@ -48,5 +48,18 @@ export const sampleProducts:Product[] = [
         rating: 4.5,
         numReviews: 14,
         description: 'high quality pant',
-    }
+    },
+    {
+        name: 'Nike Slim Pant',
+        slug: 'nike-slim-pant',
+        category: 'pants',
+        image: '../images/p4.jpg',
+        price:78,
+        countInStock:15,
+        brand:'Nike',
+        rating: 4.5,
+        numReviews: 14,
+        description: 'high quality pant',
+        
+    },
 ]

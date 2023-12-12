@@ -7,11 +7,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
-
-
 .product-image{
-  max-width: 400px;
-  width:100%;
+  min-width: 300px;
+  max-width: 300px;
+  max-height: 300px;
+  min-height: 300px;
 }
 
 rating span {
@@ -27,4 +27,13 @@ img.thumbnail {
 
 .small-container {
   max-width: 600px;
+}
+
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #f08000;
+  color: #f08000;
 }

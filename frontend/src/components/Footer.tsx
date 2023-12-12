@@ -32,8 +32,8 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4">
-            <h5>Company Name</h5>
-            <p>&copy; {new Date().getFullYear()} Your Company Name</p>
+            <h5>Apna Bazar</h5>
+            <p>&copy; {new Date().getFullYear()} Apna Bazar</p>
           </div>
           <div className="col-lg-2">
             <h5>Quick Links</h5>
