@@ -47,5 +47,4 @@ modify items before making a final purchase.
 ![5](https://github.com/itsAtom/ts_mern_ApnaBazar_E-Commerce/assets/68067711/ca1f1af7-0802-4a57-9b82-57cea9d2ef92)
 ![6](https://github.com/itsAtom/ts_mern_ApnaBazar_E-Commerce/assets/68067711/797b2d83-0e8d-4aa3-b81e-23827f0e0630)
 ![7](https://github.com/itsAtom/ts_mern_ApnaBazar_E-Commerce/assets/68067711/05f6dcca-2468-49c4-a3e1-0ac6b6537c6f)
-![7](https://github.com/itsAtom/ts_mern_ApnaBazar_E-Commerce/assets/68067711/c8474009-9f89-408f-bad6-a427f5e36e49)
 
