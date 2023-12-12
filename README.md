@@ -20,9 +20,8 @@
 
 #Description of Project
 Project Description:
-The project is the development of a comprehensive e-commerce website that offers a wide 
-range of products from various categories. The website aims to provide a seamless shopping 
-experience for users by incorporating essential features such as a user-friendly landing page, 
+The project is the development of a comprehensive e-commerce website that offers a wide range of products from various categories. 
+The website aims to provide a seamless shopping experience for users by incorporating essential features such as a user-friendly landing page, 
 contact information, return order functionality, detailed product information, advanced filtering 
 options, user account management, product reviews, a shopping cart, and product FAQs. Each 
 team member has a specific set of responsibilities to ensure the successful development and 
