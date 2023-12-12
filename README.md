@@ -24,7 +24,7 @@ Project Description:
 * The website aims to provide a seamless shopping experience for users by incorporating essential features such as a user-friendly landing page,  contact information, return order functionality, detailed product information, advanced filtering options, user account management, product reviews, a shopping cart, and product FAQs. 
 * Each team member has a specific set of responsibilities to ensure the successful development and functionality of the website.
 
-*Targeted Audience and Objectives:
+#Targeted Audience and Objectives:
 The targeted audience for this e-commerce website includes a diverse group of online 
 shoppers. This audience comprises individuals of various age groups, backgrounds, and 
 interests who are looking to purchase products conveniently from the comfort of their homes. 
